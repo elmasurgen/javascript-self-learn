@@ -8,8 +8,8 @@ const items = [
     { name: "Klavye", price: 200 }
   ];
   
-  const filteredItems = items.filter(item => {
-    return item.price <= 200;
-  });
+  const filteredItems = items.filter(item => 
+     item.price <= 200
+  );
   
   console.log(filteredItems);
